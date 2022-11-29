@@ -4,7 +4,6 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -16,39 +15,32 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              Un poco sobre mi<span className="purple"> </span>
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+              <br />Soy estudiante proximo a graduarme en
+              <i> 
+                <b className="purple"> Ingenieria en informatica </b> en la UNLaM
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              Siempre estoy dispuesto a seguir aprendiendo y perfeccionando mis habilidades en el rubro &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
-                </b>
+                <b className="purple">Informatico</b>, ya sea desde nivel{" "}
+                <b className="purple"> software </b> como <b className="purple"> hardware </b> 
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              Actualmente me encuentro trabajando como <b className="purple">Desarrollador Back-End en NET</b> e incursionando mis primeros pasos en el desarrollo 
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  Frond-End
                 </b>
               </i>
-              &nbsp; like
+              &nbsp; con 
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> React.js</b>
               </i>
             </p>
           </Col>
@@ -67,7 +59,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/estevezadrian95"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,17 +69,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/estevezadrian95/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +79,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/estevezadrian95"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
+import homeLogo from "../../Assets/home-main.png";
 import Particle from "../Particle";
 import Type from "./Type";
 
@@ -19,7 +19,7 @@ function Home() {
                 </span>
               </h1>
               <h1 className="heading-name">
-                Yo Soy
+                Soy
                 <strong className="main-name"> Adrian Estevez</strong>
               </h1>
               <div style={{ padding: 50, textAlign: "left" }}>

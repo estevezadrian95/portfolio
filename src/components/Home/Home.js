@@ -1,8 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.png";
-import About from "../About/About";
-import Footer from "../Footer";
 import Particle from "../Particle";
 import Type from "./Type";
 
@@ -35,6 +33,9 @@ function Home() {
                 className="img-fluid"
                 style={{ maxHeight: "600" }}
               />
+            </Col>
+            {/* Agrego Las columnas para rellenar en monitores grandes */}
+            <Col md={6} style={{ paddingBottom: 176 }}>
             </Col>
           </Row>
         </Container>

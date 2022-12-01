@@ -21,22 +21,20 @@ function About() {
             </h1>
             <Aboutcard />
           </Col>
-          <Col
+          {/* <Col
             md={5}
-            style={{ paddingTop: "50px", paddingBottom: "50px" }}
+            style={{ paddingTop: "0px", paddingBottom: "0px" }}
             className="about-img"
           >
             <img src={laptopImg} alt="about" className="img-fluid" />
-          </Col>
+          </Col> */}
         </Row>
         <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
+          <strong className="purple">Lenguajes</strong>
         </h1>
-
         <Techstack />
-
         <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
+          <strong className="purple">Herramientas</strong>
         </h1>
         <Toolstack />
       </Container>

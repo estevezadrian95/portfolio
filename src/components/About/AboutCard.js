@@ -5,26 +5,23 @@ function AboutCard() {
   return (
     <Card className="quote-card-view">
       <Card.Body>
-        <blockquote className="blockquote mb-0">
+        <blockquote className="h3">
           <p style={{ textAlign: "justify" }}>
             Hola! Soy <span className="purple">Adrian Estevez </span>
-            from <span className="purple"> Buenos Aires, Argentina.</span>
-            <br />Soy estudiante proximo a graduarme en
+            de <span className="purple"> Buenos Aires, Argentina.</span>
+            <br />Actualmente me encuentro trabajando como desarrollador .Net y cursando las ultima materias de la carrera de
             <i>
-              <b className="purple"> Ingenieria en informatica </b> en la UNLaM
+              <b className="purple"> Ingenieria en informatica </b> en la Universidad Nacional de la Matanza
             </i>
             <br />
             <br />
-            Siempre estoy dispuesto a seguir aprendiendo y perfeccionando mis habilidades en el rubro &nbsp;
-            <i>
-              <b className="purple">Informatico</b>, ya sea desde nivel{" "}
-              <b className="purple"> software </b> como <b className="purple"> hardware </b>
-            </i>
+            Mi <i><b className="purple">objetivo</b></i> es formar parte de un equipo de trabajo donde se me permita aplicar mis conocimientos adquiridos en mis años de estudio y
+            experiencia profesional, además de tener la posibilidad de seguir creciendo profesionalmente fortaleciéndome con nuevas habilidades
             <br />
           </p>
           <ul>
           </ul>
-          <p style={{ color: "rgb(155 126 172)" }}>
+          <p style={{ color: "rgb(115, 230, 220)" }}>
             "La disciplina le gana al talento"{" "}
           </p>
         </blockquote>

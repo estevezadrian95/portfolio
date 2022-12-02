@@ -15,32 +15,32 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              Un poco sobre mi<span className="purple"> </span>
+              Un poco sobre mi<span className="cian"> </span>
             </h1>
             <p className="home-about-body">
               <br />Soy estudiante proximo a graduarme en
               <i> 
-                <b className="purple"> Ingenieria en informatica </b> en la UNLaM
+                <b className="cian"> Ingenieria en informatica </b> en la UNLaM
               </i>
               <br />
               <br />
               Siempre estoy dispuesto a seguir aprendiendo y perfeccionando mis habilidades en el rubro &nbsp;
               <i>
-                <b className="purple">Informatico</b>, ya sea desde nivel{" "}
-                <b className="purple"> software </b> como <b className="purple"> hardware </b> 
+                <b className="cian">Informatico</b>, ya sea desde nivel{" "}
+                <b className="cian"> software </b> como <b className="cian"> hardware </b> 
               </i>
               <br />
               <br />
-              Actualmente me encuentro trabajando como <b className="purple">Desarrollador Back-End en NET</b> e incursionando mis primeros pasos en el desarrollo 
+              Actualmente me encuentro trabajando como <b className="cian">Desarrollador Back-End en NET</b> e incursionando mis primeros pasos en el desarrollo 
               <i>
-                <b className="purple">
+                <b className="cian">
                   {" "}
                   Frond-End
                 </b>
               </i>
               &nbsp; con 
               <i>
-                <b className="purple"> React.js</b>
+                <b className="cian"> React.js</b>
               </i>
             </p>
           </Col>
@@ -54,7 +54,7 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Feel free to <span className="cian">connect </span>with me
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
